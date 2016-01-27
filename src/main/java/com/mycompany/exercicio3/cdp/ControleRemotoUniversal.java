@@ -33,6 +33,10 @@ public  class ControleRemotoUniversal {
             System.out.println("Refazendo ultimo comando do " + ControleRemotoUniversal.ultimo);
             ControleRemotoUniversal.ultimo.execute();
     }
+
+    public Command getUltimoCommand() {
+        return ControleRemotoUniversal.ultimo;
+    }
     
     
     
